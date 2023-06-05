@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/*Board styling */
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.board{
+
+}
+
+.square { /*Can changed the board/ squares*/
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+}
+.status { /*Need to edit this as it hanging outside of the root*/
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.board-row{
+  display: flex;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  gap: 2vmin;
+}
+
+/*Root Styling */
+#root{
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  min-height: 50vh;
+}
+
+
+
+/*Syling for body*/
+html {
+  font-family: sans-serif;
+  padding: 0;
+  height: 150vh;
+  background: linear-gradient(135deg, #8052ec, #d161ff );
+}
+body{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  height: auto;
+}
+
+
+/*Scoreboard styling*/
+.scoreboard{
+  display: flex;
+  border-radius: 8px;
+  color: lightblue;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+
+}
+
+/*The buttons styling*/
+.btn-1{
+  border-radius: 8px;
+  color:#fff;
+  background-color:#1976d2;
+  border:0;
+  cursor:pointer;
+  margin:1em;
+}
+.btn{
+  border-radius: 8px;
+  color:#fff;
+  background-color:#1976d2;
+  border:0;
+  cursor:pointer;
+  margin:1em;
+}
